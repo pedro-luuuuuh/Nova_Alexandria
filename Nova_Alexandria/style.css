@@ -1,0 +1,64 @@
+#ind{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color:rgb(0, 0, 0);
+    color:rgb(126, 246, 255);
+    margin: -10px 0px 5px -10px;
+    border-bottom: 5px solid rgb(126,246,255);
+    height:min-content;
+}
+#ind:hover{
+    transition:0.3s;
+    background-color: rgb(0, 0, 0, 0.5);
+    color:rgb(126, 246, 255, 0.5);
+    cursor:pointer;
+}
+#slogan{
+    text-align:right;
+}
+h1{
+    text-align:center;
+    font-family: 'Megrim','cursive';
+}
+p,h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:rgb(97, 97, 97);
+}
+li{
+    text-decoration:underline;
+}
+body{
+    background-color: #131313;
+}
+#content{
+    margin-left:12.5%;
+    margin-top:110px;
+    background-color: #cfcfcf;
+    width:75%;
+    height:max-content;
+    padding: 10px;
+}
+footer{
+    transition:1s;
+    color:rgb(126, 246, 255, 0);
+    border-top: 10px solid rgb(126, 246, 255);
+    background-color: rgb(0, 0, 0, 0);
+    text-align:right;
+    position: fixed;
+    height:0.5px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+}
+footer:hover{
+    transition:1s;
+    color:rgb(126, 246, 255, 1);
+    border-top: 5px solid rgb(126, 246, 255);
+    background-color: rgb(0, 0, 0, 0.7);
+    height:min-content;
+}
