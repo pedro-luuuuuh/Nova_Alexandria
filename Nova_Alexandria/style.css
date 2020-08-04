@@ -1,43 +1,71 @@
+/*#ind h1{
+    text-align:center;
+    font-family: 'Megrim','cursive';
+    margin:auto 10px;
+}
 #ind{
-    position:fixed;
+    font-size: 0.7em;
     top:0px;
     left:0px;
     right:0px;
     background-color:rgb(0, 0, 0);
-    color:rgb(126, 246, 255);
-    margin: -10px 0px 5px -10px;
-    border-bottom: 5px solid rgb(126,246,255);
+    color:#fff;
+    border-bottom: 5px solid #fff;
     height:min-content;
+    display:flex;
+    padding:0;
 }
-#ind:hover{
-    transition:0.3s;
-    background-color: rgb(0, 0, 0, 0.5);
-    color:rgb(126, 246, 255, 0.5);
-    cursor:pointer;
+.invert{
+    filter: invert(100%);
+    color:#000;
 }
-#slogan{
-    text-align:right;
+.invert:hover{
+    filter: invert(0%);
 }
-h1{
-    text-align:center;
-    font-family: 'Megrim','cursive';
+#ods{
+    text-decoration: none;
+}
+.four{
+    width:20%;
+    height:100%;
+    text-align: center;
+    vertical-align: middle;
+    transition: 1s;
+    margin:auto 0px;
+    text-decoration:none;
+    color:#fff;
+}
+.four h3{
+    font-size:2em;
+}
+.four:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ffffff;
+    color:#000;
+    filter: invert(0%);
+}
+.icon{
+    height: 5em;
+    widows: 5em;   
+}
+#char{
+    display: flex;
+    border: 2px solid #000;
 }
 p,h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-a{
-    text-decoration: none;
-    color:rgb(97, 97, 97);
 }
 li{
     text-decoration:underline;
 }
 body{
     background-color: #131313;
+    margin:0;
+    padding: 0;
 }
-#content{
+.content{
     margin-left:12.5%;
-    margin-top:110px;
     background-color: #cfcfcf;
     width:75%;
     height:max-content;
@@ -61,4 +89,68 @@ footer:hover{
     border-top: 5px solid rgb(126, 246, 255);
     background-color: rgb(0, 0, 0, 0.7);
     height:min-content;
+}*/
+body{
+    margin:0;
+}
+section#ind{
+    position: fixed;
+    background-color: #000000;
+    height:min-content;
+    width:100%;
+    display:flex;
+    border-top: 1px solid rgb(201, 197, 197);
+}
+.melinda{
+    color:#fff;
+    text-align:center;
+    font-family: 'Megrim','cursive';
+    margin:auto 10px;
+}
+.four{
+    text-align: center;
+    color: #000000;
+    filter: invert();
+    font-size: 120%;
+    width:20%;
+    border-left: 1px solid #c9c5c5;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.four:hover{
+    background-color: #fff;
+    filter: invert(0%);
+}
+.boo{
+    color:#fff;
+    text-align: center;
+    width:20%;
+    font-size: 120%;
+}
+.boo:hover{
+    background-color: #fff;
+    color:#000;
+}
+.boo{
+    border-left: 1px solid #c9c5c5;
+}
+#ods4{
+    padding-top:10%;
+}
+#need{
+    display:flex;
+}
+.quatro{
+    margin:0;
+    width: 25%;
+    text-align: center;
+    padding:0 3%;
+}
+.quatro:hover{
+    cursor: pointer;
+    filter:invert();
+    color:#000;
+    background-color: #fff;
 }
